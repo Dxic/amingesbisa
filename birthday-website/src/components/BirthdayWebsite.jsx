@@ -56,7 +56,7 @@ const BirthdayWebsite = () => {
 
   return (
     <div className="min-h-screen bg-black text-white relative">
-      <audio ref={audioRef} src="/src/NEMEN Jersey Drill - Asw1n Arkwood Cinsko & Nikolski.mp3" loop />
+      <audio ref={audioRef} src="\media\NEMEN Jersey Drill - Asw1n Arkwood Cinsko & Nikolski.mp3" loop />
 
       <button 
         onClick={toggleMusic}
@@ -175,7 +175,7 @@ const BirthdayWebsite = () => {
                   ref={videoRef}
                   className="w-full h-full object-contain"
                   poster="https://i.imgur.com/mDNocyV.jpeg"
-                  src="/src/video1724572408.mp4"
+                  src="\media\ssstik.io_@lily.48.__1735570866969.mp4"
                   controls={false}
                 />
               </div>
